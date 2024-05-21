@@ -5,11 +5,12 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
+	
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
+
 ];
 
 let DELAY = 180;//延迟上限
