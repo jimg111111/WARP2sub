@@ -11,7 +11,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
 ];
 
 let DELAY = 180;//延迟上限
