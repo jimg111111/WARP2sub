@@ -5,13 +5,21 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
-	//'engage.cloudflareclient.com:2408#WAPR官方直连',
-	//'162.159.195.128:987#WARP',
+    '[2606:4700:d0::8f43:c16d:3f31:457d]:3581',
+    '[2606:4700:d0::8ba9:5410:d8ea:babb]:3581',
+    '[2606:4700:d1::aeac:6a5c:52fb:ef99]:3581',
+    '[2606:4700:d0::0e38:260d:7c73:06f4]:880',
+    '[2606:4700:d1::fcc2:cf60:1def:de0f]:880',
+    '162.159.195.149:7156',
+    '162.159.195.166:946',
+    '188.114.97.87:946',
+    '188.114.96.61:7156',
+    '188.114.97.109:946',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
+	//'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
 ];
 
 let DELAY = 180;//延迟上限
