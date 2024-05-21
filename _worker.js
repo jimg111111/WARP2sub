@@ -5,21 +5,16 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
-    '[2606:4700:d0::8f43:c16d:3f31:457d]',
-    '[2606:4700:d0::8ba9:5410:d8ea:babb]',
-    '[2606:4700:d1::aeac:6a5c:52fb:ef99]',
-    '[2606:4700:d0::0e38:260d:7c73:06f4]',
-    '[2606:4700:d1::fcc2:cf60:1def:de0f]',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	//'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
+
 ];
 
 let DELAY = 180;//延迟上限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
+	'https://raw.githubusercontent.com/cmliu/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
