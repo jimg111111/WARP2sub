@@ -9,13 +9,12 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-
+	'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
 ];
 
 let DELAY = 180;//延迟上限
 let addressescsv = [
 	'https://raw.githubusercontent.com/cmliu/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
-	'https://gist.githubusercontent.com/jimg111111/94e8d0fb2afa341c16264dbc8e7a80c1/raw/warpip',
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
